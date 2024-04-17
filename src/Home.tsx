@@ -103,7 +103,7 @@ const Other = styled.div`
 const ImageWrap = styled.div`
   aspect-ratio: 1 / 1;
   width: 100%;
-  background-image: url(${ collectionImageURL });
+  background-image: url(https://solsnatcher.xyz/wp-content/uploads/2024/01/SOLsnatcher.mp4#t=-1);
   background-size: cover;
   border-radius: 16px;
 `
