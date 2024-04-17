@@ -608,7 +608,7 @@ const Home = (props: HomeProps) => {
             </Column>
             <Column>
               <Content>
-                <CollectionName>{collectionTitle}</CollectionName>
+                <CollectionName><img src="https://dapp-scaffold-one.vercel.app/sol.png"></img></CollectionName>
                 <InfoRow>
                 {guardStates.isStarted && wallet.publicKey && (
                   <InfoBox>
