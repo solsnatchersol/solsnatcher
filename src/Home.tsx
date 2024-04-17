@@ -58,20 +58,13 @@ const Header = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: fixed;  // Makes the header fixed at the top
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;  // Ensures the header is above other content
-  background-color: #000;  // Optional: Set a background color that fits your design
-  padding: 10px 20px;  // Add some padding for aesthetic spacing
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);  // Optional: Adds shadow for depth
+  position: absolute;
+  width: 100%;
 
   @media only screen and (max-width: 450px) {
-    justify-content: space-between;  // Adjusts positioning on mobile for better spacing
+    top: 16px;
   }
 `;
-
 const WalletContainer = styled.div`
   display: flex;
   flex-direction: row;
